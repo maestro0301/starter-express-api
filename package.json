@@ -1,22 +1,28 @@
 {
-  "name": "starter-express-api",
+  "name": "backend",
   "version": "1.0.0",
-  "description": "",
+  "description": "This backend project is built in Node.js, Express.js and MySQL for a youtube course:",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cyclic-software/starter-express-api.git"
+    "url": "git+ssh://git@gitlab.com/a10762/Youtube/Courses/Contacts-Web-App-with-HTML5-CSS3-Javascript-Node.js-Express.js-and-MySQL/backend.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/cyclic-software/starter-express-api/issues"
+    "url": "https://gitlab.com/a10762/Youtube/Courses/Contacts-Web-App-with-HTML5-CSS3-Javascript-Node.js-Express.js-and-MySQL/backend/issues"
   },
-  "homepage": "https://github.com/cyclic-software/starter-express-api#readme",
+  "homepage": "https://gitlab.com/a10762/Youtube/Courses/Contacts-Web-App-with-HTML5-CSS3-Javascript-Node.js-Express.js-and-MySQL/backend#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0",
+    "nodemon": "^2.0.19"
   }
 }
